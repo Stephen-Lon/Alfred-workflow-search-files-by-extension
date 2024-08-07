@@ -32,7 +32,7 @@ Press `space` and start typing the name of the folder in which you wish to searc
 <img width="764" alt="Set folder" src="https://github.com/user-attachments/assets/addf61f7-58ed-4a35-aa50-cf7031a488c2">
 
 
-- Alternatively, select a folder in Finder, press your Universal Actions hotkey and look for `Search files by extension` in the list of action. Press <kbd>⏎</kbd> when it is selected.
+- Alternatively, select a folder in Finder, press your Universal Actions hotkey and look for `Search files by extension` in the list of action. Press ⏎ when it is selected.
 
 
 You then have the option to search the selected folder and its subfolders (the default) or to search only in the selected folder so in either case you will then see this:.
