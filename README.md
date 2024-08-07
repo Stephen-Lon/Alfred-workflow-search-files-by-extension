@@ -41,7 +41,7 @@ You then have the option to search the selected folder and its subfolders (the d
 
 
 
-When you have made your choice you will see the search dialog (shown here after selecting the default option to search including subfolders):
+When you have made your choice you will see the search dialog:
 
 ![Search](https://github.com/user-attachments/assets/9109f7ef-a0eb-43a9-8a3e-000024e80902)
 
