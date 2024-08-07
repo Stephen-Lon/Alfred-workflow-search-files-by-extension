@@ -61,6 +61,3 @@ You can select any file found and press:
 - ⏎ to open the file;
 - ⌥ + ⏎ to reveal the file in Finder; or
 - ⇧ + ⏎ to action the file in Alfred.
-
----
-**Version 1.1** 06/08/2024: added file action so that the workflow can be used as a Universal Action on a selected folder in Finder. Updated ReadMe.
