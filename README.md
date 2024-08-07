@@ -29,7 +29,7 @@ To run the workflow do either of the following:
 
 Press `space` and start typing the name of the folder in which you wish to search. When the name appears in the list you can select it and press ⏎.
 
-<img width="764" alt="Set folder" src="https://github.com/user-attachments/assets/addf61f7-58ed-4a35-aa50-cf7031a488c2">
+![Set folder](https://github.com/user-attachments/assets/19317236-ae66-440e-aeae-0aed4fcd4cd1)
 
 
 - Alternatively, select a folder in Finder, press your Universal Actions hotkey and look for `Search files by extension` in the list of action. Press ⏎ when it is selected.
@@ -37,17 +37,20 @@ Press `space` and start typing the name of the folder in which you wish to searc
 
 You then have the option to search the selected folder and its subfolders (the default) or to search only in the selected folder so in either case you will then see this:.
 
-![Choose](https://github.com/user-attachments/assets/94aa3052-d24a-4aeb-a1be-fd04c7644293)
+![Choose](https://github.com/user-attachments/assets/dac0c3c4-1cf8-4390-ba1c-420249753331)
+
 
 
 When you have made your choice you will see the search dialog (shown here after selecting the default option to search including subfolders):
 
-![Search](https://github.com/user-attachments/assets/e55c5e03-fb2a-49b5-b840-c9f3c242048d)
+![Search](https://github.com/user-attachments/assets/9109f7ef-a0eb-43a9-8a3e-000024e80902)
+
 
 
 Type the extension for which you wish to search (*without* the preceding full stop or period) and the result will display:
 
-<img width="764" alt="Result" src="https://github.com/user-attachments/assets/d82f3f2d-725c-4087-a6c4-fcad0271f444">
+![Result](https://github.com/user-attachments/assets/59b47c56-3721-4044-a0c0-ce30e44fb28e)
+
 
 There are three things to note:
 
