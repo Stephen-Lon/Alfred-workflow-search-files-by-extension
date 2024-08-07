@@ -27,7 +27,7 @@ To run the workflow do either of the following:
 <img width="764" alt="Initial dialog" src="https://github.com/user-attachments/assets/13393fc0-208a-430e-8274-6a85fb2ad194">
 
 
-Press `space` and start typing the name of the folder in which you wish to search. When the name appears in the list you can select it and press <kbd>⏎</kbd>.
+Press `space` and start typing the name of the folder in which you wish to search. When the name appears in the list you can select it and press ⏎.
 
 <img width="764" alt="Set folder" src="https://github.com/user-attachments/assets/addf61f7-58ed-4a35-aa50-cf7031a488c2">
 
@@ -58,5 +58,5 @@ There are three things to note:
 You can select any file found and press:
 
 - ⏎ to open the file;
-- ⌥ + ⏎ to reveal the file in Finder; or
-- ⇧ + ⏎ to action the file in Alfred.
+- ⌥⏎ to reveal the file in Finder; or
+- ⇧⏎ to action the file in Alfred.
