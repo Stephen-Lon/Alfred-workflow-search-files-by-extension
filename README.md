@@ -1,55 +1,54 @@
 # Alfred-workflow-search-files-by-extension
-Search for files with a given extension in a given folder (and, optionally, its subfolders). (This ReadMe is for version 2.0)
+Search for files with a given extension in a given folder (and, optionally, its first level subfolders).
 
 # Introduction
 
-This workflow enables you to search for files with a given extension in a given folder (and, optionally, its subfolders) and returns them in Alfred. You can choose whether or not to include subfolders in the search. It can also be used as a Universal Action on a selected folder in Finder.
+This workflow enables you to search for files with a given extension in a given folder (and, optionally, its first level subfolders) and returns them in Alfred. You can choose whether or not to include subfolders in the search. It can also be used as a Universal Action on a selected folder in Finder.
 
 # Important notes
 
-1. The folders from which you initially select to search (unless you use the Universal Action on a selected folder in Finder) are limited to specified folders (and any of their subfolders) in your home folder, specifically ~/Desktop, ~/Documents, ~/Downloads, ~/Movies, ~/Music, ~/Pictures and ~/Public.
+1. The folders from which you initially select to search (unless you use the Universal Action on a selected folder in Finder) are limited to specified folders (and any of their subfolders) in your home folder, specifically:
 
-  You could add other folders by extending the `Scope` of the initial file filter but I would strongly recommend *not* adding folders outside your home folders. If you were to do so search times would probably be very long and you would fail to find system file extensions without significant alterations to the workflow.
+	~/Desktop, ~/Documents, ~/Downloads, ~/Movies, ~/Music, ~/Pictures and ~/Public  
 
-2. If the relevant extension is not found you will see something like this:
+	You could add other folders by extending the `Scope` of the initial file filter but I would strongly recommend *not* adding folders outside your home folders. If you were to do so search times would probably be very long and you would fail to find system file extensions without significant alterations to the workflow.
 
-<img width="764" alt="Not found" src="https://github.com/user-attachments/assets/245a9019-bd54-4c68-b374-fbf3e6e1de87">
+2. The extension search is case insensitive (i.e. it will find both upper and lower case versions of the given extension). 
+
+3. If the relevant extension is not found you will see something like this:
+
+![Error](https://github.com/user-attachments/assets/56ade17f-6668-488e-811f-2de5237eef02)
 
 
-You can simply backspace and try another extension (or press `esc` to end the workflow).
+As indicated simply press `esc` to end the workflow.
 
 # Usage
 
 To run the workflow do either of the following:
 
-- Type `fxt` (or the other keyword you have set in the user configuration) and you will see this:
+1. Type `fxt` (or the other keyword you have set in the user configuration) and you will see this:
 
-<img width="764" alt="Initial dialog" src="https://github.com/user-attachments/assets/13393fc0-208a-430e-8274-6a85fb2ad194">
+![Search files by extension](Images/Initial dialog.png)
 
+Press `space` and start typing the name of the folder in which you wish to search. When the name appears in the list you can select it and press <kbd>⏎</kbd>.
 
-Press `space` and start typing the name of the folder in which you wish to search. When the name appears in the list you can select it and press ⏎.
-
-![Set folder](https://github.com/user-attachments/assets/19317236-ae66-440e-aeae-0aed4fcd4cd1)
-
-
-- Alternatively, select a folder in Finder, press your Universal Actions hotkey and look for `Search files by extension` in the list of action. Press ⏎ when it is selected.
+![Set folder](https://github.com/user-attachments/assets/bfca5a1e-e01f-4d4d-a8c3-d9cc8c659b0c)
 
 
-You then have the option to search the selected folder and its subfolders (the default) or to search only in the selected folder so in either case you will then see this:.
-
-![Choose](https://github.com/user-attachments/assets/dac0c3c4-1cf8-4390-ba1c-420249753331)
+2. Alternatively, select a folder in Finder, press your Universal Actions hotkey and look for `Search files by extension` in the list of action. Press <kbd>⏎</kbd> when it is selected.
 
 
+In either case you then have the option to search the selected folder and its first level subfolders (the default) or to search only in the selected folder and you will see this:.
+
+![Search files by extension](Images/Choose.png)
 
 When you have made your choice you will see the search dialog:
 
-![Search](https://github.com/user-attachments/assets/9109f7ef-a0eb-43a9-8a3e-000024e80902)
-
-
+![Search files by extension](Images/Search.png)
 
 Type the extension for which you wish to search (*without* the preceding full stop or period) and the result will display:
 
-![Result](https://github.com/user-attachments/assets/59b47c56-3721-4044-a0c0-ce30e44fb28e)
+<img width="764" alt="Result" src="https://github.com/user-attachments/assets/7d4ddda6-5a28-43cb-8fd0-38ebc026586b">
 
 
 There are three things to note:
@@ -60,6 +59,6 @@ There are three things to note:
 
 You can select any file found and press:
 
-- ⏎ to open the file;
-- ⌥⏎ to reveal the file in Finder; or
-- ⇧⏎ to action the file in Alfred.
+- <kbd>⏎</kbd> to open the file;
+- <kbd>⌥</kbd><kbd>⏎</kbd> to reveal the file in Finder; or
+- <kbd>⇧</kbd><kbd>⏎</kbd> to action the file in Alfred.
