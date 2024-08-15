@@ -40,11 +40,13 @@ Press `space` and start typing the name of the folder in which you wish to searc
 
 In either case you then have the option to search the selected folder and its first level subfolders (the default) or to search only in the selected folder and you will see this:.
 
-![Search files by extension](Images/Choose.png)
+![Choose](https://github.com/user-attachments/assets/09dd5798-d70a-4c58-b459-108c2d76f5c8)
+
 
 When you have made your choice you will see the search dialog:
 
-![Search files by extension](Images/Search.png)
+![Search](https://github.com/user-attachments/assets/6801751f-7956-4712-a991-fede1fe0c543)
+
 
 Type the extension for which you wish to search (*without* the preceding full stop or period) and the result will display:
 
