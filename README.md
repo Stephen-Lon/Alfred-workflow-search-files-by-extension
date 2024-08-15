@@ -28,7 +28,8 @@ To run the workflow do either of the following:
 
 1. Type `fxt` (or the other keyword you have set in the user configuration) and you will see this:
 
-![Search files by extension](Images/Initial dialog.png)
+<img width="764" alt="Initial dialog" src="https://github.com/user-attachments/assets/dc0e382c-8b3b-4461-bbec-076c1b5e5512">
+
 
 Press `space` and start typing the name of the folder in which you wish to search. When the name appears in the list you can select it and press <kbd>⏎</kbd>.
 
