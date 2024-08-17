@@ -1,9 +1,9 @@
 # Alfred-workflow-search-files-by-extension
-Search for files with a given extension in a given folder (and, optionally, its first level subfolders).
+Search for files with a given extension in a given folder (and, optionally, its subfolders).
 
 # Introduction
 
-This workflow enables you to search for files with a given extension in a given folder (and, optionally, its first level subfolders) and returns them in Alfred. You can choose whether or not to include subfolders in the search. It can also be used as a Universal Action on a selected folder in Finder.
+This workflow enables you to search for files with a given extension in a given folder (and, optionally, its subfolders) and returns them in Alfred. You can choose whether or not to include subfolders in the search. It can also be used as a Universal Action on a selected folder in Finder.
 
 # Important notes
 
@@ -36,10 +36,10 @@ Press `space` and start typing the name of the folder in which you wish to searc
 ![Set folder](https://github.com/user-attachments/assets/bfca5a1e-e01f-4d4d-a8c3-d9cc8c659b0c)
 
 
-2. Alternatively, select a folder in Finder, press your Universal Actions hotkey and look for `Search files by extension` in the list of action. Press <kbd>⏎</kbd> when it is selected.
+2. Alternatively, select a folder in Finder, press your Universal Actions hotkey and look for `Search files by extension` in the list of actions. Press <kbd>⏎</kbd> when it is selected.
 
 
-In either case you then have the option to search the selected folder and its first level subfolders (the default) or to search only in the selected folder and you will see this:.
+In either case you then have the option to search the selected folder and its subfolders (the default) or to search only in the selected folder and you will see this:
 
 ![Choose](https://github.com/user-attachments/assets/09dd5798-d70a-4c58-b459-108c2d76f5c8)
 
@@ -58,7 +58,7 @@ There are three things to note:
 
 - The results are searchable, as shown in the screenshot.
 - If you choose to search *excluding* sub-folders no path is shown for the file. If you *include* sub-folders in your search the path from the principal search folder to the sub-folder is shown.
-- Remember that you may need to scroll down to see all of the results. In that context you may find it helpful in `System Settings → Appearance` to show scroll bars `Always`—which will help make clear where you are in the list of results when moving through it.)
+- Remember that you may need to scroll down to see all of the results. In that context you may find it helpful in `System Settings → Appearance` to show scroll bars `Always`—which will help make clear where you are in the list of results when moving through it.
 
 You can select any file found and press:
 
